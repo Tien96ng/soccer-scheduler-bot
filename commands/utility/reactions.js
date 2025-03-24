@@ -40,7 +40,7 @@ module.exports = {
       })
       .addFields({
         name: "Date | Time",
-        value: embedMsg.fields[2].value + " | " + ee.fields[3].value,
+        value: embedMsg.fields[2].value + " | " + embedMsg.fields[3].value,
       });
     await interaction.reply({
       embeds: [embed],
